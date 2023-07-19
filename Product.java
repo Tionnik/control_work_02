@@ -7,19 +7,19 @@ public class Product implements Comparable <Product> {
     private int count;
     private int chance;
 
-    public Product (int vendor_code, String name_product, int count, int chance){
+    public Product (int vendor_code, String name_product, int count, int chance){  //конструктор для игрушки с добавленным случайным числом
         this.id  = vendor_code;
         this.name = name_product;
         this.count = count;
         this.chance = chance;
     }
 
-    public Product (int vendor_code, String name_product, int count){
+    public Product (int vendor_code, String name_product, int count){              // Базовый конструктор для игрушек
         this.id  = vendor_code;
         this.name = name_product;
         this.count = count;
     }
-
+                                                                                    // Методы получения значений поля
     public int getId() {
         return id;
     }
@@ -32,8 +32,8 @@ public class Product implements Comparable <Product> {
     public int getChance() {
         return chance;
     }
-
-    @Override
+                                                                                    // Метод для поиска большего добавочного значения 
+    @Override                                                                       // для приоритетной очереди
     public int compareTo(Product other) {
         if (other == null) {
             return -1; 
