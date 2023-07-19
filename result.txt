@@ -1,0 +1,18 @@
+17,Doll,994
+17,Doll,988
+17,Doll,964
+21,constructor,958
+14,table tennis set,929
+21,constructor,891
+21,constructor,869
+7,soccer ball,867
+7,soccer ball,797
+27,basketball ball,657
+27,basketball ball,619
+17,Doll,512
+14,table tennis set,421
+21,constructor,420
+21,constructor,374
+17,Doll,344
+17,Doll,210
+14,table tennis set,184
