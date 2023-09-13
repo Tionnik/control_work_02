@@ -2,25 +2,25 @@ package control_work_02;
 
 public class Product implements Comparable <Product> {
     
-    private int id;
+    private String id;
     private String name;
     private int count;
     private int chance;
 
-    public Product (int vendor_code, String name_product, int count, int chance){  //конструктор для игрушки с добавленным случайным числом
+    public Product (String vendor_code, String name_product, int count, int chance){  //конструктор для игрушки с добавленным случайным числом
         this.id  = vendor_code;
         this.name = name_product;
         this.count = count;
         this.chance = chance;
     }
 
-    public Product (int vendor_code, String name_product, int count){              // Базовый конструктор для игрушек
+    public Product (String vendor_code, String name_product, int count){              // Базовый конструктор для игрушек
         this.id  = vendor_code;
         this.name = name_product;
         this.count = count;
     }
                                                                                     // Методы получения значений поля
-    public int getId() {
+    public String getId() {
         return id;
     }
     public String getName() {
